@@ -17,7 +17,7 @@ export function Login(){
             alert("campos inválidos!");
             return false;
         }
-        history.push('/Sistema/Compras');
+        history.push('/Compras');
     }
 
     return (

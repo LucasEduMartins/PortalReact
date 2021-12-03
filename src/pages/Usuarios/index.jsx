@@ -4,8 +4,7 @@ import "./../../styles/global.scss";
 
 export function Usuarios(){
     return(
-        <div id="page-usuarios" className="page">
-            <Menu menuActived="Usuarios" />
+        <div id="page-usuarios">
             <h1>Usuários</h1>
         </div>
     )

@@ -16,6 +16,7 @@ export function Menu(props: MenuProps){
     function handleClickMenu(event: React.MouseEvent) {
         event.preventDefault();
         const value = event.currentTarget.getAttribute("value");
+        setMenuActived(value ?? "Compras" );
         history.push(`/${value}`);
     }
 
